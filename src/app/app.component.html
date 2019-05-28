@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>Create a viking!</h1>
+  <button (click)="buttonClick('Leif', 'Eriksson', 'Iceland', 970)">Create Leif </button>
+  <button (click)="buttonClick('Maarten', 'Tibau', 'Belgium', 1984)">Create Maarten</button>
+  <pre *ngIf="viking">{{viking | json }}</pre>
+</div>
+<router-outlet></router-outlet>

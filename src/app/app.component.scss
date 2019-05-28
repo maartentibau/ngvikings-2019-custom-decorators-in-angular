@@ -1,0 +1,12 @@
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 4px solid lightskyblue;
+  font-size: 20px;
+  margin: 15px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+  }
+}
